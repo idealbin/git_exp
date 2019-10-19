@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Lotto</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>로또번호 추첨기</h1>
-    
-<script>
-// TODO 랜덤으로 번호를 뽑는 함수를 만들어주세요.
-</script>
-</body>
+
+    <script>
+      // 랜덤 번호 생성 함수
+      function genLottoNo() {
+        return Math.floor(Math.random() * 45) + 1;
+      }
+    </script>
+  </body>
 </html>
